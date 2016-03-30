@@ -148,6 +148,7 @@ a:focus {
     text-align: center;
     color: #fff;
     background-color: #042D47;
+	background-image: url(../img/fingerprint.png) no-repeat center
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -192,7 +193,7 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
-	background-image: url(../img/fingerprint.png) no-repeat center
+	
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
