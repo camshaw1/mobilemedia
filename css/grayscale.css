@@ -182,7 +182,7 @@ a:focus {
     }
 }
 
-.btn-circle {
+.btn-square {
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -197,21 +197,21 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover,
-.btn-circle:focus {
+.btn-square:hover,
+.btn-square:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
 }
 
-.btn-circle i.animated {
+.btn-square i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
 }
 
-.btn-circle:hover i.animated {
+.btn-square:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
