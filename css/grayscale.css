@@ -192,6 +192,7 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
+	background-image: url(../img/fingerprint.png) no-repeat center
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -300,7 +301,7 @@ a:focus {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-	background-image: url(../img/fingerprint.png) no-repeat center
+	
 }
 
 .btn-default {
