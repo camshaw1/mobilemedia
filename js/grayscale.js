@@ -54,7 +54,6 @@ function init() {
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
-        scrollwheel: false,
         draggable: false,
 
         // How you would like to style the map. 
@@ -69,12 +68,5 @@ function init() {
     // Create the Google Map using out element and options defined above
     map = new google.maps.Map(mapElement, mapOptions);
 
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(-41.291582, 174.770486);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-    });
+   
 }
