@@ -310,7 +310,7 @@ a:focus {
     border: 1px solid #000;
     outline: 0;
     color: #000;
-    background-color: #000;
+    background-color: #555;
 }
 
 ul.banner-social-buttons {
