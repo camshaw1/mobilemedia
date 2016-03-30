@@ -276,8 +276,8 @@ a:focus {
 
 #map {
     width: 100%;
-    height: 400px;
-    margin-top: 50px;
+    height: 4px;
+    margin-top: 250px;
 }
 
 @media(min-width:767px) {
@@ -290,8 +290,8 @@ a:focus {
     }
 
     #map {
-        height: 400px;
-        margin-top: 50px;
+        height: 4px;
+        margin-top: 250px;
     }
 }
 
