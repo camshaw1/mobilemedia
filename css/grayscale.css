@@ -300,13 +300,14 @@ a:focus {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+	background-image: url(../img/fingerprint.png) no-repeat center
 }
 
 .btn-default {
     border: 1px solid #42dca3;
     color: #42dca3;
     background-color: transparent;
-	background-image: url(../img/fingerprint.png) no-repeat center
+	
 
 }
 
