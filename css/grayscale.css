@@ -185,6 +185,7 @@ a:focus {
     color: #fff;
     background: 0 0;
 	background: url(../img/fingerprint.png) no-repeat center;
+	z-index: 100;
 	
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -380,11 +381,11 @@ body {
 }
 
 #horizontal {
-  stroke: red;
+  stroke: white;
 }
 
 #vertical {
-  stroke: blue;
+  stroke: white;
 }
 
 #dot {
@@ -408,3 +409,4 @@ body {
   border: 1px solid #AAA;
   border-radius: 5px;
 }
+
